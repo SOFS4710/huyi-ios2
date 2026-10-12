@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA00000000000000000000B01 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A01 /* App.swift */; };
+		AA00000000000000000000B02 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A02 /* Models.swift */; };
+		AA00000000000000000000B03 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A03 /* AppStore.swift */; };
+		AA00000000000000000000B04 /* HardwareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A04 /* HardwareService.swift */; };
+		AA00000000000000000000B05 /* PcSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A05 /* PcSyncService.swift */; };
+		AA00000000000000000000B06 /* SecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A06 /* SecurityService.swift */; };
+		AA00000000000000000000B07 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A07 /* Components.swift */; };
+		AA00000000000000000000B08 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A08 /* SplashView.swift */; };
+		AA00000000000000000000B09 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A09 /* MainTabView.swift */; };
+		AA00000000000000000000B0A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A0A /* HomeView.swift */; };
+		AA00000000000000000000B0B /* HardwareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A0B /* HardwareView.swift */; };
+		AA00000000000000000000B0C /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A0C /* ControlView.swift */; };
+		AA00000000000000000000B0D /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A0D /* SecurityView.swift */; };
+		AA00000000000000000000B0E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A0E /* SettingsView.swift */; };
+		AA00000000000000000000B0F /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A0F /* ScanView.swift */; };
+		AA00000000000000000000B10 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A10 /* NetworkView.swift */; };
+		AA00000000000000000000B11 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A11 /* LogsView.swift */; };
+		AA00000000000000000000B12 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A12 /* NoteView.swift */; };
+		AA00000000000000000000B13 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A13 /* ToolsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA00000000000000000000A01 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A02 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A03 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A04 /* HardwareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareService.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A05 /* PcSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PcSyncService.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A06 /* SecurityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityService.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A07 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A08 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A09 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A0A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A0B /* HardwareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A0C /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A0D /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A0E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A0F /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A10 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A11 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A12 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A13 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00000000000000000000A15 /* 湖癔网络科技.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 湖癔网络科技.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA00000000000000000000C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA00000000000000000000D01 = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000000D02 /* 湖癔网络科技 */,
+				AA00000000000000000000D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA00000000000000000000D02 /* 湖癔网络科技 */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000000A01 /* App.swift */,
+				AA00000000000000000000A02 /* Models.swift */,
+				AA00000000000000000000A03 /* AppStore.swift */,
+				AA00000000000000000000A04 /* HardwareService.swift */,
+				AA00000000000000000000A05 /* PcSyncService.swift */,
+				AA00000000000000000000A06 /* SecurityService.swift */,
+				AA00000000000000000000A07 /* Components.swift */,
+				AA00000000000000000000A08 /* SplashView.swift */,
+				AA00000000000000000000A09 /* MainTabView.swift */,
+				AA00000000000000000000A0A /* HomeView.swift */,
+				AA00000000000000000000A0B /* HardwareView.swift */,
+				AA00000000000000000000A0C /* ControlView.swift */,
+				AA00000000000000000000A0D /* SecurityView.swift */,
+				AA00000000000000000000A0E /* SettingsView.swift */,
+				AA00000000000000000000A0F /* ScanView.swift */,
+				AA00000000000000000000A10 /* NetworkView.swift */,
+				AA00000000000000000000A11 /* LogsView.swift */,
+				AA00000000000000000000A12 /* NoteView.swift */,
+				AA00000000000000000000A13 /* ToolsView.swift */,
+				AA00000000000000000000A14 /* Info.plist */,
+			);
+			path = 湖癔网络科技;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000000D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000000A15 /* 湖癔网络科技.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA00000000000000000000E01 /* 湖癔网络科技 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00000000000000000000F02 /* Build configuration list for PBXNativeTarget "湖癔网络科技" */;
+			buildPhases = (
+				AA00000000000000000000C02 /* Sources */,
+				AA00000000000000000000C01 /* Frameworks */,
+				AA00000000000000000000C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 湖癔网络科技;
+			productName = 湖癔网络科技;
+			productReference = AA00000000000000000000A15 /* 湖癔网络科技.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00000000000000000000E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA00000000000000000000E01 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA00000000000000000000F01 /* Build configuration list for PBXProject "湖癔网络科技" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_CN,
+				en,
+				Base,
+			);
+			mainGroup = AA00000000000000000000D01;
+			productRefGroup = AA00000000000000000000D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA00000000000000000000E01 /* 湖癔网络科技 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA00000000000000000000C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA00000000000000000000C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00000000000000000000B01 /* App.swift in Sources */,
+				AA00000000000000000000B02 /* Models.swift in Sources */,
+				AA00000000000000000000B03 /* AppStore.swift in Sources */,
+				AA00000000000000000000B04 /* HardwareService.swift in Sources */,
+				AA00000000000000000000B05 /* PcSyncService.swift in Sources */,
+				AA00000000000000000000B06 /* SecurityService.swift in Sources */,
+				AA00000000000000000000B07 /* Components.swift in Sources */,
+				AA00000000000000000000B08 /* SplashView.swift in Sources */,
+				AA00000000000000000000B09 /* MainTabView.swift in Sources */,
+				AA00000000000000000000B0A /* HomeView.swift in Sources */,
+				AA00000000000000000000B0B /* HardwareView.swift in Sources */,
+				AA00000000000000000000B0C /* ControlView.swift in Sources */,
+				AA00000000000000000000B0D /* SecurityView.swift in Sources */,
+				AA00000000000000000000B0E /* SettingsView.swift in Sources */,
+				AA00000000000000000000B0F /* ScanView.swift in Sources */,
+				AA00000000000000000000B10 /* NetworkView.swift in Sources */,
+				AA00000000000000000000B11 /* LogsView.swift in Sources */,
+				AA00000000000000000000B12 /* NoteView.swift in Sources */,
+				AA00000000000000000000B13 /* ToolsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA00000000000000000000F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA00000000000000000000F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA00000000000000000000F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 219;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 湖癔网络科技/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.19;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyi.toolbox.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA00000000000000000000F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 219;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 湖癔网络科技/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.19;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyi.toolbox.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA00000000000000000000F01 /* Build configuration list for PBXProject "湖癔网络科技" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000000F03 /* Debug */,
+				AA00000000000000000000F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00000000000000000000F02 /* Build configuration list for PBXNativeTarget "湖癔网络科技" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000000F05 /* Debug */,
+				AA00000000000000000000F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA00000000000000000000E02 /* Project object */;
+}
