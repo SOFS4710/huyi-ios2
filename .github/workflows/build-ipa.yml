@@ -1,0 +1,29 @@
+name: 云编译 IPA
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - name: 拉取源码
+        uses: actions/checkout@v4
+      - name: 编译 iOS App
+        run: |
+          cd 湖癔网络科技iOS
+          xcodebuild -project 湖癔网络科技.xcodeproj -scheme 湖癔网络科技 -configuration Release -destination 'generic/platform=iOS' -derivedDataPath build CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
+      - name: 打包成 IPA
+        run: |
+          cd 湖癔网络科技iOS
+          mkdir -p Payload
+          APP=$(ls -d build/Build/Products/Release-iphoneos/*.app | head -1)
+          cp -r "$APP" Payload/
+          zip -r "湖癔网络科技-V2.19-未签名.ipa" Payload
+      - name: 上传 IPA 产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: 湖癔网络科技-V2.19-未签名IPA
+          path: 湖癔网络科技iOS/湖癔网络科技-V2.19-未签名.ipa
